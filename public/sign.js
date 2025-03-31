@@ -4,11 +4,11 @@ let inputPass = document.querySelector(".pass")
 eye.addEventListener("click", function() {
     if(inputPass.type === "password") {
         inputPass.type = "text"
-        eye.src = "photo_2025-02-23 open.jpg";
+        eye.src = "./img/photo_2025-02-23 open.jpg";
     }
     else{
         inputPass.type = "password";
-        eye.src = "photo_2025-02-23 close.jpg";
+        eye.src = "./img/photo_2025-02-23 close.jpg";
     }
 });
 
